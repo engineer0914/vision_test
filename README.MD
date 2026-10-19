@@ -7,14 +7,14 @@ Intel RealSense D435i/D435if 카메라 스트림을 받아서 선택한 YOLO 모
 brick 모델 사용 시:
 
 ```
-python test.py --model brick
+python test.py --brick
 ```
 (저장 파일 예시: brick_20261019_220000.mp4)
 
 comp 모델 사용 시:
 
 ```
-python test.py --model comp
+python test.py --best_comp
 ```
 (저장 파일 예시: comp_20261019_220000.mp4)
 
